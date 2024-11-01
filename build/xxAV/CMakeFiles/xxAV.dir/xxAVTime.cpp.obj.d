@@ -1,0 +1,33 @@
+xxAV/CMakeFiles/xxAV.dir/xxAVTime.cpp.obj: \
+ D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVTime.cpp \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/pstl_config.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/stdint.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/stddef.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/timeb.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/_timeval.h \
+ D:/dev/software/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
+ D:/dev/software/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+ D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAV.h

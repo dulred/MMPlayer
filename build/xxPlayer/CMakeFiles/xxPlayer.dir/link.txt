@@ -1,0 +1,2 @@
+D:/dev/software/QT/Tools/mingw1120_64/bin/ar.exe qc libxxPlayer.a CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj
+D:/dev/software/QT/Tools/mingw1120_64/bin/ranlib.exe libxxPlayer.a
