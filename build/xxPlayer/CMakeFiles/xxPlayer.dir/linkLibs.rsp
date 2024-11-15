@@ -1,1 +1,0 @@
-  -L"D:/dev/3rdlibs/done/ffmpeg-n4.4.3-4-gd585a0a1cc-win64-gpl-shared-4.4/lib"  ../xxThread/libxxThread.a ../xxAV/libxxAV.a -lavcodec -lavdevice -lavformat -lavutil -lswresample -lswscale -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

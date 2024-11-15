@@ -18,7 +18,7 @@ int xxplayer::open(double time){
 
     if (playerCtr == nullptr)
     {
-        playerCtr = new xxPlayerCtr(time);
+        playerCtr = new xxPlayerCtr(path,time);
         playerCtr->start();
         return 0;
     }

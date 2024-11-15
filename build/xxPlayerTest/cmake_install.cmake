@@ -1,4 +1,4 @@
-# Install script for directory: D:/dev/source/c++/vscode/xxPlayer/xxPlayerTest
+# Install script for directory: D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayerTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,8 +32,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/dev/software/QT/Tools/mingw1120_64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/objdump.exe")
 endif()
 

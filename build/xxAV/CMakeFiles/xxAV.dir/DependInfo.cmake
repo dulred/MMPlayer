@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVDecoder.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj.d"
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVFrame.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj.d"
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVPacket.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj.d"
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVReader.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVReader.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVReader.cpp.obj.d"
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVStream.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVStream.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVStream.cpp.obj.d"
-  "D:/dev/source/c++/vscode/xxPlayer/xxAV/xxAVTime.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVTime.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVTime.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVDecoder.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVFrame.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVPacket.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVReader.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVReader.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVReader.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVStream.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVStream.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVStream.cpp.obj.d"
+  "D:/dulred/dev/source/c++/vscode/xxPlayer/xxAV/xxAVTime.cpp" "xxAV/CMakeFiles/xxAV.dir/xxAVTime.cpp.obj" "gcc" "xxAV/CMakeFiles/xxAV.dir/xxAVTime.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

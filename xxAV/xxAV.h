@@ -1,3 +1,5 @@
+#include <stdint.h>
+#include <stdio.h>
 class xxAVPacketPrivate;
 class xxAVStreamPrivate;
 
@@ -69,6 +71,12 @@ class xxAVFrame
         int getY(unsigned char* y);
         int getU(unsigned char* u);
         int getV(unsigned char* v);
+
+        int getPictureData(unsigned char*& pictureData);
+
+        int getAudioData (uint8_t**& data,int& channel,int& samples,int& sample_rate,int& flag);
+
+        int savePCMData(FILE* &pcmFile);
 
         long long getPts();
 

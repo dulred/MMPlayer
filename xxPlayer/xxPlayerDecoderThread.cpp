@@ -40,11 +40,10 @@ int xxPlayerDecoderThread::getPacketQueueSize(){
 
 void xxPlayerDecoderThread::run(){
 
-    int frameCount = 0;
     //进行解码操作
     while (!stopFlag)
     {
-        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        // std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
 
         if (type == xxDecoderType::XXDECODER_TYPE_VIDEO)
@@ -85,9 +84,6 @@ void xxPlayerDecoderThread::run(){
             {
                break;
             }
-            frameCount++;
-            // printf("decoder success: %d\n",frameCount);
-            // std::this_thread::sleep_for(std::chrono::seconds(1));
             
             if (type == xxDecoderType::XXDECODER_TYPE_VIDEO)
             {

@@ -1,2 +1,2 @@
-D:/dev/software/QT/Tools/mingw1120_64/bin/ar.exe qc libxxThread.a CMakeFiles/xxThread.dir/xxThread.cpp.obj
-D:/dev/software/QT/Tools/mingw1120_64/bin/ranlib.exe libxxThread.a
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/ar.exe qc libxxThread.a CMakeFiles/xxThread.dir/xxThread.cpp.obj
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/ranlib.exe libxxThread.a

@@ -21,7 +21,7 @@ enum xxPlayerCtrStatus
 class xxPlayerCtr : public xxThread
 {
     public:
-        xxPlayerCtr(double _seekTime = 0.0);
+        xxPlayerCtr(std::string path ,double _seekTime = 0.0);
         ~xxPlayerCtr();
 
         virtual void run();
@@ -37,7 +37,7 @@ class xxPlayerCtr : public xxThread
         xxQueue<xxAVFrame> videoQueue;
         xxQueue<xxAVFrame> audioQueue;
         xxPlayerCtrStatus status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
-
+        std::string path;
         double seekTime = 0.0;
 };
 

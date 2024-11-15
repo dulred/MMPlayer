@@ -1,2 +1,2 @@
-D:/dev/software/QT/Tools/mingw1120_64/bin/ar.exe qc libxxAV.a CMakeFiles/xxAV.dir/xxAVReader.cpp.obj CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj CMakeFiles/xxAV.dir/xxAVStream.cpp.obj CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj CMakeFiles/xxAV.dir/xxAVTime.cpp.obj
-D:/dev/software/QT/Tools/mingw1120_64/bin/ranlib.exe libxxAV.a
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/ar.exe qc libxxAV.a CMakeFiles/xxAV.dir/xxAVReader.cpp.obj CMakeFiles/xxAV.dir/xxAVPacket.cpp.obj CMakeFiles/xxAV.dir/xxAVDecoder.cpp.obj CMakeFiles/xxAV.dir/xxAVStream.cpp.obj CMakeFiles/xxAV.dir/xxAVFrame.cpp.obj CMakeFiles/xxAV.dir/xxAVTime.cpp.obj
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/ranlib.exe libxxAV.a
