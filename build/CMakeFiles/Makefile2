@@ -170,12 +170,12 @@ xxPlayer/CMakeFiles/xxPlayer.dir/all: xxAV/CMakeFiles/xxAV.dir/all
 xxPlayer/CMakeFiles/xxPlayer.dir/all: xxGL/CMakeFiles/xxGL.dir/all
 	$(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/depend
 	$(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=13,14,15,16,17 "Built target xxPlayer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target xxPlayer"
 .PHONY : xxPlayer/CMakeFiles/xxPlayer.dir/all
 
 # Build rule for subdir invocation for target.
 xxPlayer/CMakeFiles/xxPlayer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xxPlayer/CMakeFiles/xxPlayer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 0
 .PHONY : xxPlayer/CMakeFiles/xxPlayer.dir/rule
@@ -196,7 +196,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/clean:
 xxThread/CMakeFiles/xxThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f xxThread/CMakeFiles/xxThread.dir/build.make xxThread/CMakeFiles/xxThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f xxThread/CMakeFiles/xxThread.dir/build.make xxThread/CMakeFiles/xxThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=20,21 "Built target xxThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=24,25 "Built target xxThread"
 .PHONY : xxThread/CMakeFiles/xxThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,12 +251,12 @@ xxPlayerTest/CMakeFiles/xxPlayerTest.dir/all: xxAV/CMakeFiles/xxAV.dir/all
 xxPlayerTest/CMakeFiles/xxPlayerTest.dir/all: xxGL/CMakeFiles/xxGL.dir/all
 	$(MAKE) $(MAKESILENT) -f xxPlayerTest/CMakeFiles/xxPlayerTest.dir/build.make xxPlayerTest/CMakeFiles/xxPlayerTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f xxPlayerTest/CMakeFiles/xxPlayerTest.dir/build.make xxPlayerTest/CMakeFiles/xxPlayerTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=18,19 "Built target xxPlayerTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=22,23 "Built target xxPlayerTest"
 .PHONY : xxPlayerTest/CMakeFiles/xxPlayerTest.dir/all
 
 # Build rule for subdir invocation for target.
 xxPlayerTest/CMakeFiles/xxPlayerTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xxPlayerTest/CMakeFiles/xxPlayerTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles 0
 .PHONY : xxPlayerTest/CMakeFiles/xxPlayerTest.dir/rule

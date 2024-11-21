@@ -154,6 +154,30 @@ xxPlayer.cpp.s:
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.s
 .PHONY : xxPlayer.cpp.s
 
+xxPlayerAudioThread.obj: xxPlayerAudioThread.cpp.obj
+.PHONY : xxPlayerAudioThread.obj
+
+# target to build an object file
+xxPlayerAudioThread.cpp.obj:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj
+.PHONY : xxPlayerAudioThread.cpp.obj
+
+xxPlayerAudioThread.i: xxPlayerAudioThread.cpp.i
+.PHONY : xxPlayerAudioThread.i
+
+# target to preprocess a source file
+xxPlayerAudioThread.cpp.i:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.i
+.PHONY : xxPlayerAudioThread.cpp.i
+
+xxPlayerAudioThread.s: xxPlayerAudioThread.cpp.s
+.PHONY : xxPlayerAudioThread.s
+
+# target to generate assembly for a file
+xxPlayerAudioThread.cpp.s:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.s
+.PHONY : xxPlayerAudioThread.cpp.s
+
 xxPlayerCtr.obj: xxPlayerCtr.cpp.obj
 .PHONY : xxPlayerCtr.obj
 
@@ -202,6 +226,54 @@ xxPlayerDecoderThread.cpp.s:
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.s
 .PHONY : xxPlayerDecoderThread.cpp.s
 
+xxPlayerPushAudioThread.obj: xxPlayerPushAudioThread.cpp.obj
+.PHONY : xxPlayerPushAudioThread.obj
+
+# target to build an object file
+xxPlayerPushAudioThread.cpp.obj:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj
+.PHONY : xxPlayerPushAudioThread.cpp.obj
+
+xxPlayerPushAudioThread.i: xxPlayerPushAudioThread.cpp.i
+.PHONY : xxPlayerPushAudioThread.i
+
+# target to preprocess a source file
+xxPlayerPushAudioThread.cpp.i:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.i
+.PHONY : xxPlayerPushAudioThread.cpp.i
+
+xxPlayerPushAudioThread.s: xxPlayerPushAudioThread.cpp.s
+.PHONY : xxPlayerPushAudioThread.s
+
+# target to generate assembly for a file
+xxPlayerPushAudioThread.cpp.s:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.s
+.PHONY : xxPlayerPushAudioThread.cpp.s
+
+xxPlayerPushRenderThread.obj: xxPlayerPushRenderThread.cpp.obj
+.PHONY : xxPlayerPushRenderThread.obj
+
+# target to build an object file
+xxPlayerPushRenderThread.cpp.obj:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj
+.PHONY : xxPlayerPushRenderThread.cpp.obj
+
+xxPlayerPushRenderThread.i: xxPlayerPushRenderThread.cpp.i
+.PHONY : xxPlayerPushRenderThread.i
+
+# target to preprocess a source file
+xxPlayerPushRenderThread.cpp.i:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.i
+.PHONY : xxPlayerPushRenderThread.cpp.i
+
+xxPlayerPushRenderThread.s: xxPlayerPushRenderThread.cpp.s
+.PHONY : xxPlayerPushRenderThread.s
+
+# target to generate assembly for a file
+xxPlayerPushRenderThread.cpp.s:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.s
+.PHONY : xxPlayerPushRenderThread.cpp.s
+
 xxPlayerReaderThread.obj: xxPlayerReaderThread.cpp.obj
 .PHONY : xxPlayerReaderThread.obj
 
@@ -226,6 +298,30 @@ xxPlayerReaderThread.cpp.s:
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.s
 .PHONY : xxPlayerReaderThread.cpp.s
 
+xxPlayerRenderThread.obj: xxPlayerRenderThread.cpp.obj
+.PHONY : xxPlayerRenderThread.obj
+
+# target to build an object file
+xxPlayerRenderThread.cpp.obj:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj
+.PHONY : xxPlayerRenderThread.cpp.obj
+
+xxPlayerRenderThread.i: xxPlayerRenderThread.cpp.i
+.PHONY : xxPlayerRenderThread.i
+
+# target to preprocess a source file
+xxPlayerRenderThread.cpp.i:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.i
+.PHONY : xxPlayerRenderThread.cpp.i
+
+xxPlayerRenderThread.s: xxPlayerRenderThread.cpp.s
+.PHONY : xxPlayerRenderThread.s
+
+# target to generate assembly for a file
+xxPlayerRenderThread.cpp.s:
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build && $(MAKE) $(MAKESILENT) -f xxPlayer/CMakeFiles/xxPlayer.dir/build.make xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.s
+.PHONY : xxPlayerRenderThread.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,15 +334,27 @@ help:
 	@echo "... xxPlayer.obj"
 	@echo "... xxPlayer.i"
 	@echo "... xxPlayer.s"
+	@echo "... xxPlayerAudioThread.obj"
+	@echo "... xxPlayerAudioThread.i"
+	@echo "... xxPlayerAudioThread.s"
 	@echo "... xxPlayerCtr.obj"
 	@echo "... xxPlayerCtr.i"
 	@echo "... xxPlayerCtr.s"
 	@echo "... xxPlayerDecoderThread.obj"
 	@echo "... xxPlayerDecoderThread.i"
 	@echo "... xxPlayerDecoderThread.s"
+	@echo "... xxPlayerPushAudioThread.obj"
+	@echo "... xxPlayerPushAudioThread.i"
+	@echo "... xxPlayerPushAudioThread.s"
+	@echo "... xxPlayerPushRenderThread.obj"
+	@echo "... xxPlayerPushRenderThread.i"
+	@echo "... xxPlayerPushRenderThread.s"
 	@echo "... xxPlayerReaderThread.obj"
 	@echo "... xxPlayerReaderThread.i"
 	@echo "... xxPlayerReaderThread.s"
+	@echo "... xxPlayerRenderThread.obj"
+	@echo "... xxPlayerRenderThread.i"
+	@echo "... xxPlayerRenderThread.s"
 .PHONY : help
 
 

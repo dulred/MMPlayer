@@ -129,12 +129,76 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.s"
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerCtr.cpp -o CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.s
 
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/flags.make
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/includes_CXX.rsp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerRenderThread.cpp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj -MF CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj.d -o CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj -c D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerRenderThread.cpp
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.i"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerRenderThread.cpp > CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.i
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.s"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerRenderThread.cpp -o CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.s
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/flags.make
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/includes_CXX.rsp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerAudioThread.cpp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj -MF CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj.d -o CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj -c D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerAudioThread.cpp
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.i"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerAudioThread.cpp > CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.i
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.s"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerAudioThread.cpp -o CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.s
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/flags.make
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/includes_CXX.rsp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushRenderThread.cpp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj -MF CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj.d -o CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj -c D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushRenderThread.cpp
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.i"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushRenderThread.cpp > CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.i
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.s"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushRenderThread.cpp -o CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.s
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/flags.make
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/includes_CXX.rsp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushAudioThread.cpp
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: xxPlayer/CMakeFiles/xxPlayer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj -MF CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj.d -o CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj -c D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushAudioThread.cpp
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.i"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushAudioThread.cpp > CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.i
+
+xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.s"
+	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerPushAudioThread.cpp -o CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.s
+
 # Object files for target xxPlayer
 xxPlayer_OBJECTS = \
 "CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj" \
 "CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj" \
 "CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj" \
-"CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj"
+"CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj" \
+"CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj" \
+"CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj" \
+"CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj" \
+"CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj"
 
 # External object files for target xxPlayer
 xxPlayer_EXTERNAL_OBJECTS =
@@ -143,9 +207,13 @@ xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj
 xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj
 xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj
 xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj
+xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj
+xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj
+xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj
+xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj
 xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/build.make
 xxPlayer/libxxPlayer.a: xxPlayer/CMakeFiles/xxPlayer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libxxPlayer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/dulred/dev/source/c++/vscode/xxPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libxxPlayer.a"
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && $(CMAKE_COMMAND) -P CMakeFiles/xxPlayer.dir/cmake_clean_target.cmake
 	cd D:/dulred/dev/source/c++/vscode/xxPlayer/build/xxPlayer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xxPlayer.dir/link.txt --verbose=$(VERBOSE)
 

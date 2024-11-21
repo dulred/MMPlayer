@@ -9,6 +9,9 @@ xxPlayerReaderThread::~xxPlayerReaderThread(){
 
 }
 
+long long xxPlayerReaderThread::getVideoDuration(){
+    return this->duration;
+}
 void xxPlayerReaderThread::run(){
     xxAVReader reader;
     int ret = reader.open(path.c_str());
@@ -18,6 +21,8 @@ void xxPlayerReaderThread::run(){
     }
 
     reader.seek(seekTime);
+
+    this->duration = reader.getVideoDuration();
 
     int videoStreamIndex =reader.getVideoStreamIndex();
     int audioStreamIndex = reader.getAudioStreamIndex();
@@ -38,10 +43,9 @@ void xxPlayerReaderThread::run(){
     videoDecoderThread->start();
     audioDecoderThread->start();
 
-
     while (!stopFlag)
     {
-        if (videoDecoderThread->getPacketQueueSize() > 5 && audioDecoderThread->getPacketQueueSize() > 5)
+        if (videoDecoderThread->getPacketQueueSize() > 60 && audioDecoderThread->getPacketQueueSize() > 80)
         {
             continue;
         }
@@ -52,7 +56,7 @@ void xxPlayerReaderThread::run(){
         {
            delete pkt;
            pkt = nullptr;
-           break;
+           continue;
         }
 
         if (pkt->getIndex() == videoStreamIndex)
@@ -65,14 +69,7 @@ void xxPlayerReaderThread::run(){
             audioDecoderThread->putPacket(pkt);
         }
         
-        //将Packet 放入缓存
-        // printf("Read Packet Success\n");
-
-        // delete pkt;
-        // pkt = nullptr;
-        
     }
-
     videoDecoderThread->stop();
     audioDecoderThread->stop();
 

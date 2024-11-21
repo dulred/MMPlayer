@@ -220,11 +220,12 @@ int xxAVFrame::audioPrint(){
 }
 
 
-int xxAVFrame::getAudioData (uint8_t**& data,int& channel,int& samples,int& sample_rate,int& flag){
-     data = imp->frame->data;
+int xxAVFrame::getAudioInfo (int& channel,int& samples,int& sample_rate,int& flag,double& play_duration){
+     
      channel = imp->frame->channels;
      samples = imp->frame->nb_samples;
      sample_rate = imp->frame->sample_rate;
+     play_duration = (double)samples / sample_rate;
     //  AVSampleFormat format = (AVSampleFormat)(imp->frame->format);
     // 判断采样格式是平面格式还是交错格式
     // int planar = av_sample_fmt_is_planar(format); 
@@ -236,6 +237,11 @@ int xxAVFrame::getAudioData (uint8_t**& data,int& channel,int& samples,int& samp
     }
 
 
+    return 0;
+}
+
+int xxAVFrame::getAudioData(uint8_t**& data){
+    data = imp->frame->data;
     return 0;
 }
 

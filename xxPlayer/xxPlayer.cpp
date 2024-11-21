@@ -15,7 +15,6 @@ int xxplayer::open(double time){
     //     readerThread->start();
     //     return 0;
     // }
-
     if (playerCtr == nullptr)
     {
         playerCtr = new xxPlayerCtr(path,time);
@@ -60,7 +59,13 @@ int xxplayer::pause(){
 }
 
 int xxplayer::seek(double time){
+    printf("time1: %f\n", time);
     stop();
+    printf("time2: %f\n", time);
     open(time);
     return 0;
+}
+
+long long xxplayer::getVideoDuration(){
+    return playerCtr->getVideoDuration();
 }

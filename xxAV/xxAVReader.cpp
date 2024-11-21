@@ -12,7 +12,6 @@ xxAVReader::~xxAVReader(){
         avformat_free_context(imp->formatCtx);
         imp->formatCtx = nullptr;
     }
-
 }
 
 int xxAVReader::open(const char* path){
@@ -41,7 +40,6 @@ int xxAVReader::read(xxAVPacket* packet){
         return -1;
     }
     int ret = av_read_frame(imp->formatCtx,packet->imp->pkt);
-
     return ret;
 }
 
@@ -52,7 +50,7 @@ int xxAVReader::getStreamCount(){
 int xxAVReader::getStream(xxAVStream* avStream, int streamId){
     AVStream* ffmpegStream = imp->formatCtx->streams[streamId];
 
-    // ffmpegStream->time_base
+    // // ffmpegStream->time_base
     // printf("Timebase num: %d\n",ffmpegStream->time_base.num);
     // printf("Timebase den: %d\n",ffmpegStream->time_base.den);
 
@@ -79,10 +77,15 @@ int xxAVReader::seek(double time){
     {
         return -1;
     }
-    // printf("fsajafji %d",time);
+    printf("seekTime %f",time);
     int64_t timestamp = (int64_t)(time * AV_TIME_BASE);
 
     int aa = av_seek_frame(imp->formatCtx,-1,timestamp,AVSEEK_FLAG_BACKWARD);
     return 0;
     
+}
+
+
+long long xxAVReader::getVideoDuration(){
+    return imp->formatCtx->duration;
 }

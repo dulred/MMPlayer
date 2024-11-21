@@ -39,16 +39,15 @@ int xxPlayerDecoderThread::getPacketQueueSize(){
 }
 
 void xxPlayerDecoderThread::run(){
-
     //进行解码操作
     while (!stopFlag)
     {
-        // std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
 
 
         if (type == xxDecoderType::XXDECODER_TYPE_VIDEO)
             {
-                if (playerCtr->getVideoQueueSize() > 10)
+                if (playerCtr->getVideoQueueSize() > 50)
                 {
                     continue; //自旋
                 }
@@ -58,7 +57,7 @@ void xxPlayerDecoderThread::run(){
         else if (type == xxDecoderType::XXDECODER_TYPE_AUDIO)
             {
 
-                if (playerCtr->getAudioQueueSize() > 20)
+                if (playerCtr->getAudioQueueSize() > 50)
                 {
                     continue; //自旋
                 }

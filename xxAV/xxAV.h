@@ -1,3 +1,4 @@
+#pragma once
 #include <stdint.h>
 #include <stdio.h>
 class xxAVPacketPrivate;
@@ -36,7 +37,7 @@ class xxAVReader
         int read(xxAVPacket * packet);
 
         int seek(double time);
-        
+        long long getVideoDuration();
     private:
         xxAVReaderPrivate* imp = nullptr;
 };
@@ -74,8 +75,8 @@ class xxAVFrame
 
         int getPictureData(unsigned char*& pictureData);
 
-        int getAudioData (uint8_t**& data,int& channel,int& samples,int& sample_rate,int& flag);
-
+        int getAudioInfo (int& channel,int& samples,int& sample_rate,int& flag,double& play_duration);
+        int getAudioData(uint8_t**& data);
         int savePCMData(FILE* &pcmFile);
 
         long long getPts();

@@ -30,7 +30,17 @@ public:
             queue.pop();
             return 0;
         }
-        return -1;
+        return -1; 
+    }
+
+     int popOne(T **t){
+       std::lock_guard<std::mutex> lck(mut);
+        int _size = size();
+        if (_size>0){
+            *t = queue.front();
+            return 0;
+        }
+        return -1; 
     }
     int size (){
         return queue.size();
