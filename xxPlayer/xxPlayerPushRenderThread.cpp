@@ -13,7 +13,6 @@ void xxPlayerPushRenderThread::run(){
 
         while (!stopFlag)
         {
-                
                 if (renderThread->getVideoQueueSize() < 60)
                 {
                         // 获取一帧视频

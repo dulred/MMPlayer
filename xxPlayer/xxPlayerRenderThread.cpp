@@ -29,6 +29,18 @@ int xxPlayerRenderThread::setStartTIme(long long _startTime){
        startTime = _startTime;
        return 0;
 }
+
+int xxPlayerRenderThread::setStatus(bool _status){
+    if (_status)
+    {
+        status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
+    }else{
+        status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PAUSEING;
+    }
+
+    return 0;
+    
+}
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     // 根据新的窗口宽高调整视口大小
     glViewport(0, 0, width, height);
@@ -144,15 +156,33 @@ void xxPlayerRenderThread::run(){
     
     xxAVFrame* videoFrame = nullptr;
 
+    long long sleepCountTime = 0;
+
     while (!stopFlag)
     {
+
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+
+        long long sleepTimeStart = xxAVTime::getTime();
+        while (status  == xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PAUSEING)
+        {
+           std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
+        long long sleepTimeEnd = xxAVTime::getTime();
+
+        long long sleepDtime = sleepTimeEnd - sleepTimeStart;
+
+        sleepCountTime  = sleepCountTime + sleepDtime;
+
         //获取当前的时间 now_time
         long long nowTime = xxAVTime::getTime();
         
         //获取到当前时间和开始时间的差值d_time
         long long dTime = nowTime - startTime;
 
-        // printf("nowTime: %lld  startTime : %lld ,  dTime : %lld ",startTime,nowTime,dTime);
+        dTime = dTime - sleepCountTime;
+
+        dTime = dTime + (long long)(seekTime * 1000);
 
         // 从视频缓存队列中，获取一帧视频frame_pts
         if (videoFrame == nullptr)
@@ -173,13 +203,14 @@ void xxPlayerRenderThread::run(){
             
         }
 
+
         if (videoFrame != nullptr)
         {
          
             // 如果frame_pts <= d_time
             if (videoFrame->getPts() <= dTime)
             {
-
+                        // printf("videoFrame->getPts: %lld",videoFrame->getPts());
                         //这帧视频，应该立即播放出来
                         unsigned char* pictureData = nullptr;
 
@@ -210,11 +241,7 @@ void xxPlayerRenderThread::run(){
                         videoFrame = nullptr;
 
             }
-            else
-            {
-                 //这帧视频还不到播放的时候，程序进行自旋，或者去处理音频
-            }
-            
+
         }
         
     }

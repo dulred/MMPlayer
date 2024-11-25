@@ -27,6 +27,18 @@ int xxPlayerAudioThread::getAudioQueueSize()
     return audioQueue.size();
 }
 
+int xxPlayerAudioThread::setStatus(bool _status){
+    if (_status)
+    {
+        status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
+    }else{
+        status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PAUSEING;
+    }
+
+    return 0;
+    
+}
+
 
 int xxPlayerAudioThread::loadAudioData(uint8_t** data, const int frameSize,const int numFrames,long long frame_duration,int flag){
 
@@ -43,7 +55,7 @@ int xxPlayerAudioThread::loadAudioData(uint8_t** data, const int frameSize,const
     while (count < numFrames) {
         if (getAudioQueueSize() > 0) {
             long long nowTime = xxAVTime::getTime();
-            long long dTime = nowTime - startTime + frame_duration + (long long)(seekTime * 1000);
+            long long dTime = nowTime - startTime + frame_duration + (long long)(seekTime * 1000) - sleepCountTime;
 
             if (audioFrame == nullptr)
             {
@@ -168,8 +180,6 @@ void xxPlayerAudioThread::run(){
     alSourcePlay(source);
 
 
-    long long sleepCountTime = 0;
-
     while(!stopFlag){
         
         // std::this_thread::sleep_for(std::chrono::milliseconds(1));
@@ -184,15 +194,6 @@ void xxPlayerAudioThread::run(){
         long long sleepDtime = sleepTimeEnd - sleepTimeStart;
         sleepCountTime  = sleepCountTime + sleepDtime;
         
-        
-        //获取当前的时间 now_time
-        long long nowTime = xxAVTime::getTime();
-        
-        //获取到当前时间和开始时间的差值d_time
-        long long dTime = nowTime - startTime;
-
-        dTime = dTime - sleepCountTime;
-        
 
         ALint processed;
         alGetSourcei(source, AL_BUFFERS_PROCESSED, &processed);
@@ -202,7 +203,7 @@ void xxPlayerAudioThread::run(){
             
             ALuint buffer;
             alSourceUnqueueBuffers(source, 1, &buffer);
-
+ 
             // 填充新的音频数据
             uint8_t* data = nullptr;  // 根据动态计算的缓冲区大小分配内存
             loadAudioData(&data,frameSize,numFrames,frame_duration,1);          // 加载音频数据

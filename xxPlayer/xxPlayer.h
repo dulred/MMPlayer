@@ -42,7 +42,7 @@ class xxPlayerCtr : public xxThread
     private:
         xxQueue<xxAVFrame> videoQueue;
         xxQueue<xxAVFrame> audioQueue;
-        xxPlayerCtrStatus status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PAUSEING;
+        xxPlayerCtrStatus status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
         std::string path;
         double seekTime = 0.0;
         long long duration = 0;
@@ -120,6 +120,8 @@ class xxPlayerRenderThread: public xxThread
 
         int setStartTIme(long long startTime);
 
+        int setStatus(bool _status);
+
         
         virtual void run();
 
@@ -145,6 +147,8 @@ class xxPlayerAudioThread: public xxThread
         
         int setStartTIme(long long startTime);
 
+        int setStatus(bool _status);
+
         int loadAudioData(uint8_t** data, const int frameSize,const int numFrames,long long frame_duration,int flag);
 
         virtual void run();
@@ -155,6 +159,7 @@ class xxPlayerAudioThread: public xxThread
         long long startTime = 0;
         double seekTime = 0.0;
         xxPlayerCtrStatus status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
+        long long sleepCountTime = 0;
 };
 
 

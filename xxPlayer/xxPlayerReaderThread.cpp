@@ -45,6 +45,7 @@ void xxPlayerReaderThread::run(){
 
     while (!stopFlag)
     {
+        
         if (videoDecoderThread->getPacketQueueSize() > 60 && audioDecoderThread->getPacketQueueSize() > 80)
         {
             continue;

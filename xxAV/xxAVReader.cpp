@@ -77,7 +77,6 @@ int xxAVReader::seek(double time){
     {
         return -1;
     }
-    printf("seekTime %f",time);
     int64_t timestamp = (int64_t)(time * AV_TIME_BASE);
 
     int aa = av_seek_frame(imp->formatCtx,-1,timestamp,AVSEEK_FLAG_BACKWARD);

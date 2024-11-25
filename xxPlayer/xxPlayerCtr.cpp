@@ -72,7 +72,7 @@ void xxPlayerCtr::run(){
 
 
     // 预加载音频帧
-    while (audioThread.getAudioQueueSize() < 80)
+    while (audioThread.getAudioQueueSize() < 60)
     {
 
             xxAVFrame *audioFrame = nullptr;
@@ -103,6 +103,7 @@ void xxPlayerCtr::run(){
     xxPlayerPushAudioThread pushAudioThread(this,&audioThread);
     pushAudioThread.start();
 
+
     // 启动渲染线程
     renderThread.setStartTIme(startTime);
     renderThread.start();
@@ -112,9 +113,18 @@ void xxPlayerCtr::run(){
     audioThread.start();
 
  
-    while (!stopFlag)
+    while (!stopFlag)   
     {
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        if (status == xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING)
+        {
+           renderThread.setStatus(true);
+           audioThread.setStatus(true);
+        }else{
+            renderThread.setStatus(false);
+            audioThread.setStatus(false);
+        }
+        
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
     }
     
 

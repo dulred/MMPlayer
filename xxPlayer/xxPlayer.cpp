@@ -59,9 +59,7 @@ int xxplayer::pause(){
 }
 
 int xxplayer::seek(double time){
-    printf("time1: %f\n", time);
     stop();
-    printf("time2: %f\n", time);
     open(time);
     return 0;
 }

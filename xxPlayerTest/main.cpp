@@ -17,18 +17,24 @@ int main(){
     // double duration_in_seconds = (double)duration / AV_TIME_BASE;
 
     // printf("Duration in seconds: %f\n", duration_in_seconds);  // 输出: 100.167000 秒
-    player.seek(3);
 
-    // player.pause();
-   
-    // ...wait
     
-    // player.play();
-    // std::this_thread::sleep_for(std::chrono::seconds(1));
 
-    // player.pause();
-    // std::this_thread::sleep_for(std::chrono::seconds(1));
-    // player.play();
+
+    std::this_thread::sleep_for(std::chrono::seconds(10));
+
+    player.pause();
+
+    std::this_thread::sleep_for(std::chrono::seconds(20));
+    // // // // ...wait
+
+    player.play();
+
+    std::this_thread::sleep_for(std::chrono::seconds(20));
+
+    player.seek(10);
+  
+
     std::this_thread::sleep_for(std::chrono::seconds(12000));
     // ...wait
 

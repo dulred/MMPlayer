@@ -12,9 +12,8 @@ xxPlayerPushAudioThread::~xxPlayerPushAudioThread(){
 void xxPlayerPushAudioThread::run(){
 
          while (!stopFlag)
-        {
-                        
-                if (audioThread->getAudioQueueSize()<80)
+        {   
+                if (audioThread->getAudioQueueSize()<60)
                 {
                         // 获取一帧视频
                         xxAVFrame* audioFrame = nullptr;
