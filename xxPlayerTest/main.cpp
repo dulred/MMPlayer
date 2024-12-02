@@ -186,15 +186,6 @@ int main() {
     }
 
 
-    // 创建共享上下文的另一个窗口
-    // sharedWindow = glfwCreateWindow(1, 1, "Shared Window", nullptr, mainWindow);  // 与主窗口共享上下文
-    // if (!sharedWindow) {
-    //     std::cerr << "Failed to create shared window!" << std::endl;
-    //     glfwTerminate();
-    //     return -1;
-    // }
-
-
     // OpenGL 运行模式--单线程
     glfwMakeContextCurrent(mainWindow); 
     glfwSetFramebufferSizeCallback(mainWindow, framebuffer_size_callback);  // 注册窗口大小变化的回调
