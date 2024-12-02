@@ -4,7 +4,8 @@
 #include "xxThread/xxThread.h"
 #include <xxAV/xxAV.h>
 #include <xxQueue/xxQueue.h>
-
+#include <condition_variable>
+#include <atomic>
 enum xxDecoderType
 {
     XXDECODER_TYPE_VIDEO = 0,
@@ -21,7 +22,7 @@ enum xxPlayerCtrStatus
 class xxPlayerCtr : public xxThread
 {
     public:
-        xxPlayerCtr(std::string path ,double _seekTime = 0.0);
+        xxPlayerCtr(std::string path ,double _seekTime,xxQueue<unsigned char>& _renderQueue);
         ~xxPlayerCtr();
 
         virtual void run();
@@ -46,6 +47,8 @@ class xxPlayerCtr : public xxThread
         std::string path;
         double seekTime = 0.0;
         long long duration = 0;
+
+        xxQueue<unsigned char>& renderQueue;
 };
 
 
@@ -56,12 +59,21 @@ class xxPlayerReaderThread : public xxThread
         ~xxPlayerReaderThread();
         long long getVideoDuration();
         virtual void run();
+        // 主线程调用该函数等待解码线程完成并获取duration
+        long long waitForDuration();
     private:
         std::string path;
         xxPlayerCtr * playerCtr = nullptr;
         double seekTime = 0.0;
+
+    private:
         long long duration = 0;
+        std::atomic<bool> done;
+        std::mutex mutex;
+        std::condition_variable cv;
 };
+
+
 
 class xxPlayerDecoderThread: public xxThread
 {
@@ -91,13 +103,13 @@ class xxplayer
         xxplayer(std::string path);
         ~xxplayer();
 
-        int open(double time = 0.0);
+        int open(double time,xxQueue<unsigned char>& renderQueue);
         int stop();
         
         int play();
         int pause();
 
-        int seek(double time);
+        int seek(double time,xxQueue<unsigned char>& renderQueue);
 
         long long getVideoDuration();
    private:
@@ -111,7 +123,7 @@ class xxplayer
 class xxPlayerRenderThread: public xxThread
 {
     public:
-        xxPlayerRenderThread();
+        xxPlayerRenderThread(xxQueue<unsigned char>& _renderQueue);
         ~xxPlayerRenderThread();
 
         int pushFrameToVideoQueue(xxAVFrame* frame);
@@ -130,6 +142,7 @@ class xxPlayerRenderThread: public xxThread
         long long startTime = 0;
         double seekTime = 0.0;
         xxPlayerCtrStatus status = xxPlayerCtrStatus::XXPLAYER_CTR_STATUS_PLAYING;
+        xxQueue<unsigned char>& renderQueue;
 };
 
 

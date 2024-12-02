@@ -168,4 +168,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj: \
  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h \
  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/mutex \
  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
- D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_lock.h
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_lock.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h

@@ -1,16 +1,17 @@
 #include "xxPlayer.h"
 
-xxPlayerCtr::xxPlayerCtr(std::string _path,double _seekTime){
+xxPlayerCtr::xxPlayerCtr(std::string _path,double _seekTime ,xxQueue<unsigned char>& _renderQueue) : renderQueue(_renderQueue){
     seekTime = _seekTime;
     path = _path;
 }
+
 
 xxPlayerCtr::~xxPlayerCtr(){
 
 }
 
 long long xxPlayerCtr::getVideoDuration(){
-    return this->duration;
+    return duration;
 }
 
 int xxPlayerCtr::play(){
@@ -41,10 +42,13 @@ void xxPlayerCtr::run(){
     xxPlayerReaderThread readerThread(path,seekTime,this);
     readerThread.start();
 
-    duration = readerThread.getVideoDuration();
+    duration = readerThread.waitForDuration();
+    std::cout << "Video duration: " << duration << " ms" << std::endl;
+
+    printf("render Queue: %d\n", renderQueue.size());
 
     // 启动渲染线程
-    xxPlayerRenderThread renderThread;
+    xxPlayerRenderThread renderThread(renderQueue);
 
     // 启动音频播放线程
     xxPlayerAudioThread audioThread;

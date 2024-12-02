@@ -5,9 +5,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj: D:/dulred/dev/source/c++/vsco
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -44,6 +48,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj: D:/dulred/dev/source/c++/vsco
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -74,6 +80,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj: D:/dulred/dev/source/c++/vsco
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -84,8 +91,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayer.cpp.obj: D:/dulred/dev/source/c++/vsco
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -178,9 +187,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: D:/dulred/dev/sour
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -217,6 +230,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: D:/dulred/dev/sour
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -247,6 +262,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: D:/dulred/dev/sour
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -257,8 +273,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerAudioThread.cpp.obj: D:/dulred/dev/sour
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -349,9 +367,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj: D:/dulred/dev/source/c++/v
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -388,6 +410,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj: D:/dulred/dev/source/c++/v
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -418,6 +442,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj: D:/dulred/dev/source/c++/v
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -428,8 +453,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerCtr.cpp.obj: D:/dulred/dev/source/c++/v
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -520,9 +547,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj: D:/dulred/dev/so
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -559,6 +590,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj: D:/dulred/dev/so
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -589,6 +622,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj: D:/dulred/dev/so
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -599,8 +633,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerDecoderThread.cpp.obj: D:/dulred/dev/so
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -691,9 +727,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: D:/dulred/dev/
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -730,6 +770,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: D:/dulred/dev/
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -760,6 +802,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: D:/dulred/dev/
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -770,8 +813,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushAudioThread.cpp.obj: D:/dulred/dev/
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -862,9 +907,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: D:/dulred/dev
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -901,6 +950,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: D:/dulred/dev
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -931,6 +982,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: D:/dulred/dev
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -941,8 +993,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerPushRenderThread.cpp.obj: D:/dulred/dev
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -1033,9 +1087,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -1072,6 +1130,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -1102,6 +1162,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -1112,8 +1173,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerReaderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -1207,9 +1270,13 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
@@ -1246,6 +1313,8 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
@@ -1276,6 +1345,7 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
@@ -1286,8 +1356,10 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
+  D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
@@ -1376,13 +1448,15 @@ xxPlayer/CMakeFiles/xxPlayer.dir/xxPlayerRenderThread.cpp.obj: D:/dulred/dev/sou
   D:/dulred/dev/source/c++/vscode/xxPlayer/xxThread/xxThread.h
 
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h:
 
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/atomic:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h:
 
@@ -1394,6 +1468,8 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc:
@@ -1402,6 +1478,16 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h:
+
 D:/dulred/dev/source/c++/vscode/xxPlayer/xxQueue/xxQueue.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h:
@@ -1409,12 +1495,6 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h:
 
@@ -1438,10 +1518,6 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc:
 
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
-
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_mutex.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h:
@@ -1463,8 +1539,6 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc:
 
@@ -1500,6 +1574,14 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h:
@@ -1508,21 +1590,25 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mi
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h:
 
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h:
-
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h:
 
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h:
-
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h:
 
@@ -1546,6 +1632,10 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_compat.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/condition_variable:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/timeb.h:
@@ -1560,13 +1650,15 @@ D:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayer/xxPlayerReaderThread.cpp:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar:
 
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype:
-
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception:
 
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h:
+
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h:
+
+D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h:
 
@@ -1683,8 +1775,6 @@ D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/mal
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/process.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread.h:
-
-D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_compat.h:
 
 D:/dulred/dev/software/Qt6.5.3/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_time.h:
 

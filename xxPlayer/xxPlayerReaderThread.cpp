@@ -12,6 +12,13 @@ xxPlayerReaderThread::~xxPlayerReaderThread(){
 long long xxPlayerReaderThread::getVideoDuration(){
     return this->duration;
 }
+
+long long xxPlayerReaderThread::waitForDuration() {
+    std::unique_lock<std::mutex> lock(mutex);
+    cv.wait(lock, [this] { return done.load(); });  // 等待子线程通知
+    return duration;
+}
+
 void xxPlayerReaderThread::run(){
     xxAVReader reader;
     int ret = reader.open(path.c_str());
@@ -23,6 +30,8 @@ void xxPlayerReaderThread::run(){
     reader.seek(seekTime);
 
     this->duration = reader.getVideoDuration();
+    done.store(true);
+    cv.notify_one();  // 通知主线程更新
 
     int videoStreamIndex =reader.getVideoStreamIndex();
     int audioStreamIndex = reader.getAudioStreamIndex();
@@ -45,7 +54,7 @@ void xxPlayerReaderThread::run(){
 
     while (!stopFlag)
     {
-        
+
         if (videoDecoderThread->getPacketQueueSize() > 60 && audioDecoderThread->getPacketQueueSize() > 80)
         {
             continue;

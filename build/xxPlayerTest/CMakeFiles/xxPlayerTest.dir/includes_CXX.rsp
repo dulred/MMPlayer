@@ -1,1 +1,1 @@
--ID:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayerTest/..
+-ID:/dulred/dev/source/c++/vscode/xxPlayer/xxPlayerTest/.. -I"D:/dulred/dev/3rdlibs/done/glfw-3.4/include" -I"D:/dulred/dev/3rdlibs/done/glad-3.3/include"

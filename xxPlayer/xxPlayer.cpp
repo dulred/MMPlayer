@@ -8,7 +8,7 @@ xxplayer::~xxplayer(){
 
 }
 
-int xxplayer::open(double time){
+int xxplayer::open(double time,xxQueue<unsigned char>& renderQueue){
     // if (readerThread == nullptr)
     // {
     //     readerThread = new xxPlayerReaderThread(path);
@@ -17,7 +17,7 @@ int xxplayer::open(double time){
     // }
     if (playerCtr == nullptr)
     {
-        playerCtr = new xxPlayerCtr(path,time);
+        playerCtr = new xxPlayerCtr(path,time,renderQueue);
         playerCtr->start();
         return 0;
     }
@@ -58,9 +58,9 @@ int xxplayer::pause(){
     return 0;
 }
 
-int xxplayer::seek(double time){
+int xxplayer::seek(double time,xxQueue<unsigned char>& renderQueue){
     stop();
-    open(time);
+    open(time,renderQueue);
     return 0;
 }
 
