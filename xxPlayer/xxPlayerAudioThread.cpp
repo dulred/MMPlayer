@@ -51,7 +51,7 @@ int xxPlayerAudioThread::loadAudioData(uint8_t** data, const int frameSize,const
     uint8_t** dataTemp = nullptr;
     int count = 0;
     int offset = 0;
-
+    // FILE * pcmFile = fopen("D:/videos/output2.pcm", "ab"); 
     while (count < numFrames) {
         if (getAudioQueueSize() > 0) {
             long long nowTime = xxAVTime::getTime();
@@ -72,12 +72,13 @@ int xxPlayerAudioThread::loadAudioData(uint8_t** data, const int frameSize,const
             }
             
     
-            if (audioFrame != nullptr && flag == 1){
+            if (audioFrame != nullptr && flag == 1){ 
                 if ( audioFrame->getPts() <= dTime)
                 {
                     // printf("audioFrame->getPts() %lld \n",audioFrame->getPts());
                     // printf("xxAVTime::getTime() - startTime + frame_duration : %lld \n",xxAVTime::getTime() - startTime + frame_duration);
                     audioFrame->getAudioData(dataTemp);
+                    // audioFrame->savePCMData(pcmFile);
                     memcpy(dynamicBuffer + offset, dataTemp[0], frameSize);
                     offset += frameSize;
 
@@ -90,10 +91,10 @@ int xxPlayerAudioThread::loadAudioData(uint8_t** data, const int frameSize,const
                     }
                 }
             }else if (audioFrame != nullptr && flag == 0){
-
                     audioFrame->getAudioData(dataTemp);
                     memcpy(dynamicBuffer + offset, dataTemp[0], frameSize);
                     offset += frameSize;
+                    
 
                     delete audioFrame;
                     audioFrame = nullptr;

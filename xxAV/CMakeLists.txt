@@ -13,4 +13,4 @@ xxAVFrame.cpp
 xxAVTime.cpp
 )
 
-target_link_libraries(xxAV avcodec avdevice avformat avutil swresample swscale ) 
+target_link_libraries(xxAV avcodec avdevice avformat avutil swresample swscale) 
